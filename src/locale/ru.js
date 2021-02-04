@@ -48,16 +48,16 @@ export default {
   },
   invalidToken: {
     tokenSequence: {
-      prohibited: "'{firstToken}' знак не может следовать за '{secondToken}' знаком(-ами)",
-      permitted: "'{firstToken}' знак может следовать только за '{secondToken}' знаком(-ами)"
+      prohibited: "Знак \"{firstToken}\" знак не может следовать за знаком \"{secondToken}\"",
+      permitted: "Знак \"{firstToken}\" знак может следовать только за знаком \"{secondToken}\""
     },
     termSequence: {
-      prohibited: "{firstTerm} не может следовать за {secondTerm}",
-      permitted: "{firstTerm} может следовать только за {secondTerm}"
+      prohibited: "Знак \"{firstTerm}\" не может следовать за знаком \"{secondTerm}\"",
+      permitted: "Знак \"{firstTerm}\" может следовать только за знаком \"{secondTerm}\""
     },
-    double: "'{token}' знак не может следовать за другим '{token}' знаком",
-    useInstead: "'{badToken}' знак не разрешен. Используйте '{goodToken}'",
-    unexpected: "Неожиданный '{token}' знак"
+    double: "Знак \"{token}\" не может следовать за другим знаком \"{token}\"",
+    useInstead: "Знак \"{badToken}\" не разрешен. Используйте знак \"{goodToken}\"",
+    unexpected: "Неожиданный знак \"{token}\""
   },
   brace: {
     curly: {
@@ -72,10 +72,10 @@ export default {
     }
   },
   string: {
-    missingOpen: "Пропущенный/недопустимый '{quote}' знак начала строки",
-    missingClose: "Недостающий/недопустимый '{quote}' знак закрытия строки",
+    missingOpen: "Пропущенный/недопустимый знак \"{quote}\" начала строки",
+    missingClose: "Недостающий/недопустимый знак \"{quote}\" закрытия строки",
     mustBeWrappedByQuotes: "Строки должны быть обернуты в кавычки",
-    nonAlphanumeric: "Не буквенно-численный знак '{token}' не разрешен вне строки",
+    nonAlphanumeric: "Не буквенно-численный знак \"{token}\" не разрешен вне строки",
     unexpectedKey: "В качестве строки найден неожиданный ключ"
   },
   key: {

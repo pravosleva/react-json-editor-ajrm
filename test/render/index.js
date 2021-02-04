@@ -14,7 +14,7 @@ const sampleFunctions = {
 
 function run() {
   test(`Basic Component Render`, () => {
-    let wrapper = mount(
+    let wrapper = render(
       <JSONInput
         locale={locale}
       />,
@@ -24,7 +24,7 @@ function run() {
   });
 
   test(`All Component Properties Render [1]`, () => {
-    let wrapper = mount(
+    let wrapper = render(
       <JSONInput
         locale={locale}
         placeholder={sampleData}
@@ -56,7 +56,7 @@ function run() {
   });
 
   test(`All Component Properties Render [2]`, () => {
-    let wrapper = mount(
+    let wrapper = render(
       <JSONInput
         locale={locale}
         placeholder={sampleData}
@@ -88,7 +88,7 @@ function run() {
   });
 
   test(`Custom Error Render`, () => {
-    let wrapper = mount(
+    let wrapper = render(
       <JSONInput
         locale={locale}
         placeholder={sampleData}
